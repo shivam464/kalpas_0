@@ -11,3 +11,63 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.bespoke_main_div{
+  background-color: rgba(197, 195, 195, 0.281);
+}
+@media (min-width: 320px) and (max-width: 480px) {
+.besopke_div{
+  padding: 0rem !important;
+}
+.box1_para,.box2_para{
+  padding: 23px !important;
+}
+
+.touch_div p{
+  padding: 0 !important;
+}
+.touch_div button{
+max-width: 19rem !important;
+}
+
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  
+  .besopke_div{
+    padding: 0.5rem !important;
+  }
+  
+  .box1_para,.box2_para{
+    padding: 0.7rem !important;
+  }
+  .box1_para p,.box2_para p{
+    padding: 1rem !important;
+  }
+  
+
+
+}
+
+/* @media (min-width: 576px) and (max-width: 768px){
+.box1-Img{
+  order: -5 !important;
+}
+.box2_para{
+  order: 5 !important;
+} */
+/* } */
+@media (min-width: 769px) and (max-width: 1024px) {
+  
+  .box1_para,.box2_para{
+    padding: 2.5rem !important;
+  }
+  .touch_div{
+    min-width: 60%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+  .para_div{
+    padding: 0rem 3rem !important;
+  }
+  
+}
